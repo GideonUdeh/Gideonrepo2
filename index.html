@@ -4,11 +4,8 @@
         <title>may cohort</title>
     </head>
 
-                     <!---this arranges the three nav horizontally. thi nav is target in the style tag. bcos there is only one nav in the web page
-                    we use direct targeting. css property `display: flex and ´justify content: space between´  is used to
-                    display the nav content horizontally. background colour changes the background colour of the nav, while color changes 
-                    the color of the text in the nav. ´list-style: none´ removes the bullet in the list. 
-                    Padding and merging for every web is done in the style by targeting the ´body´ element. The body means the entire web page, that is 
+                   
+                      <!--- Padding and merging for every web is done in the style by targeting the ´body´ element. The body means the entire web page, that is 
                     where you remove the padding and margin by setting them zero. align-items: center;  aligns the contents of the nav. 
                     PADING is reducing the px size of an image or text evenly on all sides in a nav box
                     MARGIN is increase the px size of an image or text evenly on all sides out of a nav box. But other padding or matging like padding 
@@ -20,12 +17,12 @@
             margin: 0;
         }
 
-      nav {
-        display: flex;                       /*this arranges the three nav bars on the web page horizontally.*/          
-        justify-content: space-between;    
-        /*align-items: center;*/       
-        background-color: black;  
-        color: white; 
+      nav {                                /*Bcos there is only one nav in the web page we use direct targeting.*/
+        display: flex;                     /*CSS property: this arranges the three nav bars on the web page horizontally.*/          
+        justify-content: space-between;    /*justify the contents of the nav and create equal spaces between them*/
+        align-items: center;               /*positions contents at center of the nab bar*/
+        background-color: black;  /*changes the background colour*/
+        color: white;       /*changes the colour of the text in the nav */
 
          /* # same padding all sides of of the nav bar
 
@@ -52,14 +49,14 @@ or
 padding: 20px 25px 18px 30px; (y and x axis method)*/
 
 
-         padding: 10px 20px;
+         padding: 60px 20px;
 
       }
 
        ul {
         display: flex;
         gap: 20px;
-        list-style: none;
+        list-style: none;   /*´list-style: none´ removes the bullet in the list.*/
         cursor: pointer;   /*cursor: pointer; changes the cursor to a pointing finger when the cursor is moved on the component (list)*/
        }
 
